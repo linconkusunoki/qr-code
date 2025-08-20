@@ -1,0 +1,70 @@
+:root {
+  --primary: #c4621a;
+  --primary-foreground: #fefbf7;
+  --secondary: #f4e6d7;
+  --secondary-foreground: #2d1810;
+  --foreground: #2d1810;
+  --border: #c4621a26;
+  --muted-foreground: #8b5a3c;
+
+  /* --font-size: 16px;
+  --background: #fefbf7;
+  --card: #fff;
+  --card-foreground: #2d1810;
+  --popover: #fff;
+  --popover-foreground: #2d1810;
+  --muted: #f9f1e9;
+  --accent: #e8d5c4;
+  --accent-foreground: #2d1810;
+  --destructive: #d4183d;
+  --destructive-foreground: #fff;
+  --input: transparent;
+  --input-background: #f9f1e9;
+  --switch-background: #e8d5c4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #c4621a;
+  --chart-1: #c4621a;
+  --chart-2: #d4a574;
+  --chart-3: #8b5a3c;
+  --chart-4: #f4e6d7;
+  --chart-5: #e8d5c4;
+  --radius: 0.75rem;
+  --sidebar: #fefbf7;
+  --sidebar-foreground: #2d1810;
+  --sidebar-primary: #c4621a;
+  --sidebar-primary-foreground: #fefbf7;
+  --sidebar-accent: #f9f1e9;
+  --sidebar-accent-foreground: #2d1810;
+  --sidebar-border: #c4621a26;
+  --sidebar-ring: #c4621a; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Tinos", serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:visited {
+  color: var(--muted-foreground);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
