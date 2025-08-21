@@ -1,7 +1,10 @@
 header {
-  background-color: var(--primary-foreground);
+  background-color: color-mix(in oklab, var(--background) 50%, transparent);
+  backdrop-filter: blur(10px);
   padding: 1rem 0;
   border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
 
   .container {
     display: flex;
